@@ -1,0 +1,5 @@
+After doing all-atom MD simulations of proteins, we wanted to assign secondary structure over the run.
+
+GROMACS has a do_dssp function that uses the xssp algorithm to read each frame and output the number of amino acids that it finds in each 2ndary.
+
+This script plots the ratio of amino acids in alpha-helix over .xvg's for as many runs as wanted
